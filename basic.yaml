@@ -1,0 +1,11 @@
+name: Basic CI pipeline
+
+on: [push]
+
+jobs:
+builds:
+runs-on: ubuntu-latest
+
+steps:
+-name: Say Hello
+run: Echo "Hello from CI pipeline"
